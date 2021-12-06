@@ -19,7 +19,7 @@
     "nodemon": "nodemon",
     "develop": "nodemon bin/phonebook.js",
     "test": "npx jest --colors --detectOpenHandles --forceExit",
-    "test-coverage": "npm test --coverage --coverageProvider=v8 --detectOpenHandles --forceExit",
+    "test-coverage": "npx jest --coverage --coverageProvider=v8 --detectOpenHandles --forceExit",
     "lint": "npx eslint ."
   },
   "type": "module",
