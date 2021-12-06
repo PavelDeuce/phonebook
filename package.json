@@ -9,8 +9,8 @@
   "scripts": {
     "nodemon": "nodemon",
     "develop": "nodemon bin/phonebook.js",
-    "test": "npx jest --colors",
-    "test-coverage": "npm test -- --coverage --coverageProvider=v8",
+    "test": "npx jest --colors --detectOpenHandles --forceExit",
+    "test-coverage": "npm test --coverage --coverageProvider=v8 --detectOpenHandles --forceExit",
     "lint": "npx eslint ."
   },
   "type": "module",

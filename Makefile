@@ -7,6 +7,9 @@ start:
 test:
 	DEBUG="phonebook" npm run test
 
+test-coverage:
+	DEBUG="phonebook" npm run test-coverage
+
 lint:
 	npm run lint
 
