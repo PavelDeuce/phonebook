@@ -1,7 +1,16 @@
 {
   "name": "phonebook",
   "version": "1.2.0",
-  "description": "",
+  "description": "The example of HTTP Server in JS without frameworks. This server implements the logic of a simple phonebook.",
+  "keywords": [
+    "http",
+    "js",
+    "node",
+    "server",
+    "phonebook",
+    "axios",
+    "jest"
+  ],
   "main": "src/index.js",
   "bin": {
     "phonebook": "src/bin/phonebook.js"
