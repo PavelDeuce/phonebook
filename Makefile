@@ -1,20 +1,13 @@
 install:
 	npm install
 
-develop:
-	DEBUG="hexlet-phonebook" npm run develop
-
-build:
-	rm -rf dist
-	npm run build
+start:
+	DEBUG="phonebook" npm run develop
 
 test:
-	DEBUG="hexlet-phonebook" npm run test
+	DEBUG="phonebook" npm run test
 
 lint:
 	npm run lint
-
-publish:
-	npm publish
 
 .PHONY: test
